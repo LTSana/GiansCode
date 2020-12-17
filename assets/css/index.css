@@ -1,0 +1,112 @@
+/* Hero 0 */
+
+.hero_0_cont {
+  padding-right: 0px;
+  padding-left: 0px;
+  height: 100vh;
+}
+
+@media (min-width: 576px) {
+  .hero_0_div_0 {
+    background: rgba(45,38,56,0.8);
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero_0_div_0 {
+    background: rgba(45,38,56,0.8);
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    border-radius: 10px;
+  }
+}
+
+#profile_picture {
+  margin: 20px;
+}
+
+.hero_0_par_0 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.hero_0_par_1 {
+  font-size: 15px !important;
+}
+
+.video_parallax {
+  height: 100vh;
+}
+
+/* Hero 1 */
+
+#hero_1 {
+  height: 400px;
+}
+
+.hero_1_heading_0 {
+  border-bottom-style: solid;
+  border-bottom-color: rgba(108,117,125,0.7);
+}
+
+/* Hero 2 */
+
+#hero_2 {
+  background: rgba(0,0,0,0.3);
+  padding-bottom: 50px;
+}
+
+#carousel-1 {
+  border-radius: 10px;
+  border: 5.4px solid var(--gray) ;
+  border-bottom-style: solid;
+  box-shadow: 10px 10px 13px rgb(0,0,0);
+}
+
+/* Hero 3 */
+
+#hero_3 {
+  height: 200px;
+}
+
+/* Font Style for Sections Headings */
+
+@media (min-width: 412px) {
+  .section_names {
+    line-height: 0px;
+    margin-bottom: 60px;
+    font-size: 60px;
+    font-family: Anton, sans-serif;
+    text-shadow: 3px 3px var(--gray);
+  }
+}
+
+@media (max-width: 411px) {
+  .section_names {
+    line-height: 0px;
+    margin-bottom: 60px;
+    /*font-size: 60px;*/
+    font-family: Anton, sans-serif;
+    text-shadow: 4px 4px var(--gray);
+  }
+}
+
+/* Paragraph Links */
+
+.par_links {
+  text-decoration: none;
+  color: #ca75ff;
+}
+
+.par_links:hover {
+  text-decoration: none;
+  color: #aa23ff;
+}
+
