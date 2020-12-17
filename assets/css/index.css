@@ -76,6 +76,10 @@
   height: 200px;
 }
 
+.fab_icon_btn {
+  opacity: 0.50;
+}
+
 /* Font Style for Sections Headings */
 
 @media (min-width: 412px) {
